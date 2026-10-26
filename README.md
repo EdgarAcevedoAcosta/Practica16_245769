@@ -1,3 +1,10 @@
+Preguntas:
+Responder: ¿por qué se usa un contexto y no props para la sesión? Por que se estarian setiando por asi decir envez de primero comprobar si estan bien, aparte el usuario no debe de saber que tipo de dato se esta mandando 
+Responder: ¿qué pasa si un componente usa la sesión fuera del proveedor? que daria error, por datos incompletos digo yo
+Responder: ¿dónde se guarda el token y qué riesgo tiene ese lugar? se guarda en un useSesion en un hook, 
+Comprobar en la pestaña Red que las peticiones llevan el encabezado Authorization y leer el token en jwt.io
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
